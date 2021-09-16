@@ -250,7 +250,7 @@ for loops & for in loops
                     ----> it prints  
                     Hello Maria
                     . How is the weather in Berlin
-                    
+
                 >>  function formatGreeting(name, city) { 
                     let retStr = "";
                     retStr += "Hello " + name + "\n";
@@ -436,7 +436,11 @@ ANSWER
 
 
 9. (Task) Start a timer for 30 minutes. Spend all that time getting to know and reading https://docs.mongodb.com/manual/introduction/ - how far did you get? What was the most cool or interesting thing you learned?
-currently doing this one :)
+I got to the Time Series Collections but I found out I couldn't test some stuff since it has been deprecated or only available to the new shell version (cursor.hint(), etc..). I wonder if it just makes sense to install mongosh and be more up to date to test the features.
+The pipeline construction and follow up of collection, I need to test that, reading the documentation is not enough, but it seems pretty interesting with things like $match, $group, $merge state. CApped collections seems to be interesting if you have a high volume of documents with a max. and the last one overwrites older ones.
+I love the commands find() and find().pretty() sort() etc to check the collections. I have learned to map through them, etc...
+First time I heard about the BSON. MongoDB stores data records as BSON documents. BSON is a binary representation of JSON documents, though it contains more data types than JSON.
+But basically I nned to test much more stuff to see if and how does it work...
 
 
 10. Find one SQL Cheatsheet and one MongoDB Cheatsheet and add links to them here.
