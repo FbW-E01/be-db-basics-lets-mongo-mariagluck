@@ -249,7 +249,10 @@ for loops & for in loops
                 >> greeting(firstName, "Berlin");
                     ----> it prints  
                     Hello Maria
-    mongosh currently supports a subset of the legacy mongo shell methods. To maintain backwards compatibility, the methods that the new mongosh supports use the same syntax as the corresponding methods in the legacy mongo shell.                let retStr = "";
+                    . How is the weather in Berlin
+                    
+                >>  function formatGreeting(name, city) { 
+                    let retStr = "";
                     retStr += "Hello " + name + "\n";
                     retStr += "Best painter of " + country + "!";
                     return retStr;
